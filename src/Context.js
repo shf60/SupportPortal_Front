@@ -1,7 +1,7 @@
 import axios from "axios";
 import { createContext, useEffect, useReducer } from "react";
 
-export const APIURL='http://172.20.10.5:8000/';
+export const APIURL='http://localhost:8000/';
 
 export const PostContext = createContext();
 
