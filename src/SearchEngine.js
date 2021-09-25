@@ -26,7 +26,7 @@ const [loading,setLoading] = useState(false);
         setLoading(false);
     }
     return(<>
-        <Form className="col-lg-6 col-xs-12 border p-0" onSubmit={searchPost}>
+        <Form className="col-lg-6 col-xs-12 p-0" onSubmit={searchPost}>
         <div><Form.Control type="search" placeholder="Search"        
         onChange={(e)=>setSearchPhrase(e.target.value)}/>
         <a href="#44" className="search-icon" onClick={searchPost}><i className="fa fa-search"></i></a>
