@@ -1,0 +1,6 @@
+handling when unauthorized or server unavailable 500 
+Register Users and Login
+Editor Like StackOverFlow
+Create View _ Post and user FullName join
+collap or like for Post
+Comment or Other answers to post
